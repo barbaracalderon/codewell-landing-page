@@ -120,14 +120,38 @@ nav {
     grid-column-end: 4;
 }
 
+
+
+h1 {
+    font-family: 'Prata', serif;
+    font-size: 3.5rem;
+}
+
 .box1 {
+    display: grid;
     grid-column-start: 1;
     grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 4;
-    height: rem;
-    background-color: lightgreen;
-    text-align: center;
+    grid-template-columns: repeat(8, 1fr);
+    row-gap: 0rem;
+    color: white;
+}
+
+.box1-conteudos {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    row-gap: 0rem;
+}
+
+.box1-conteudos > h1 {
+    display: grid;
+    margin-bottom: 0rem;
+}
+
+.box1-conteudos > p {
+    display: grid;
+    margin-top: 0rem;
+    font-size: 1.2rem;
 }
 
 
