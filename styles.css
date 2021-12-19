@@ -1,0 +1,133 @@
+/*
+For headings: https://fonts.google.com/specimen/Prata
+For body: https://fonts.google.com/specimen/Inter
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&family=Prata&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    padding: 1rem;
+}
+
+body > h1 {
+    font-family: 'Prata', serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.5rem;
+    padding: 0 3rem 0 3rem;
+    grid-template-areas:
+        'box0 box0'
+        'box1 box1'
+        'box2 box2'
+        'box3 box4'
+        'box5 box6'
+        'box7 box7'
+        'box8 box8'
+        'box9 box9'
+}
+
+@media (max-width: 700px) {
+    .grid-container {
+        grid-template-areas:
+            'box0'
+            'box1'
+            'box2'
+            'box3'
+            'box4'
+            'box5'
+            'box6'
+            'box7'
+            'box8'
+            'box9'
+    }
+}
+
+.box0 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 0;
+    grid-row-end: 1;
+    margin-bottom: 0px;
+    height: 5rem;
+    grid-area: box0;
+    background-color: lightblue;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: lightcoral;
+    grid-gap: 1rem;
+    grid-auto-rows: 1rem;
+    text-align: justify ;
+    align-items: center;
+    height: 100%;
+}
+
+#brand-jonathan {
+    font-family: 'Prata', serif;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: gray;
+    align-items: center;
+}
+
+
+.navbar-nested {
+    background-color: lightgoldenrodyellow;
+    display: grid;
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.5rem;
+    text-align: center;
+    align-items: center;
+    height: 3.2rem;
+}
+
+.navbar-nested > a {
+    font-weight: 400;
+    font-size: 16px;
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.navbar-nested > a:hover {
+    color: orange;
+}
+
+#yellow-button {
+    display: grid;
+    background-color:yellow;
+    grid-column-start: 10;
+    grid-column-end: 12;
+    text-align: center;
+    align-items: center;
+    font-family: 'Prata', serif;
+    grid-template-columns: repeat(3, 1fr);
+    height: 3.5rem;
+}
+
+#yellow-button > p {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    height: rem;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+
+
