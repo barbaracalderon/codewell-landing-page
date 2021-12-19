@@ -8,6 +8,7 @@ For body: https://fonts.google.com/specimen/Inter
 body {
     font-family: 'Inter', sans-serif;
     padding: 1rem;
+    background-color: black;
 }
 
 body > h1 {
@@ -60,7 +61,7 @@ body > h1 {
 nav {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    background-color: lightcoral;
+    background-color: black;
     grid-gap: 1rem;
     grid-auto-rows: 1rem;
     text-align: justify ;
@@ -73,13 +74,12 @@ nav {
     display: grid;
     grid-column-start: 1;
     grid-column-end: 5;
-    background-color: gray;
     align-items: center;
+    color: white;
 }
 
 
 .navbar-nested {
-    background-color: lightgoldenrodyellow;
     display: grid;
     grid-column-start: 5;
     grid-column-end: 9;
@@ -88,6 +88,7 @@ nav {
     text-align: center;
     align-items: center;
     height: 3.2rem;
+    font-size: 10px;
 }
 
 .navbar-nested > a {
@@ -103,9 +104,9 @@ nav {
 
 #yellow-button {
     display: grid;
-    background-color:yellow;
-    grid-column-start: 10;
-    grid-column-end: 12;
+    background-color:#FBE850;
+    grid-column-start: 11;
+    grid-column-end: 13;
     text-align: center;
     align-items: center;
     font-family: 'Prata', serif;
