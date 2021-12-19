@@ -136,23 +136,34 @@ h1 {
     color: white;
 }
 
-.box1-conteudos {
+.box1-content {
     display: grid;
     grid-column-start: 1;
     grid-column-end: 6;
     row-gap: 0rem;
 }
 
-.box1-conteudos > h1 {
+.box1-content > h1 {
     display: grid;
     margin-bottom: 0rem;
 }
 
-.box1-conteudos > p {
+.box1-content > p {
     display: grid;
     margin-top: 0rem;
     font-size: 1.2rem;
 }
 
+.box2 {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: space-evenly;
+}
 
+.box2 > img {
+    display: grid;
+    height: 1rem;
+}
 
