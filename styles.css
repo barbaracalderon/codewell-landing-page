@@ -127,6 +127,11 @@ h1 {
     font-size: 3.5rem;
 }
 
+h2 {
+    font-family: 'Prata', serif;
+    font-size: 2rem;
+}
+
 .box1 {
     display: grid;
     grid-column-start: 1;
@@ -160,10 +165,56 @@ h1 {
     grid-column-end: 3;
     grid-template-columns: repeat(6, 1fr);
     justify-content: space-evenly;
+    margin: 4rem 0rem 2rem 0rem;
 }
 
 .box2 > img {
     display: grid;
     height: 1rem;
+}
+
+.box3, .box4 {
+    display: grid;
+    margin-top: 3.5rem;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.box3 {
+    padding-right: 2.5rem;
+}
+
+.box4 {
+    padding-left: 2.5rem;
+}
+
+.box3 > h2 {
+    margin-bottom: 0rem;
+}
+
+.box3 > p {
+    margin-top: 0.2rem;
+}
+
+.box3-content {
+    display: grid;
+    background: url("images/Spense.png") no-repeat;
+    background-size: cover;
+    height: 20rem;
+}
+
+.box4 > h2 {
+    margin-bottom: 0rem;
+}
+
+.box4 > p {
+    margin-top: 0.2rem;
+}
+
+.box4-content {
+    display: grid;
+    background: url("images/YelpCamp.png") no-repeat;
+    background-size: cover;
+    height: 20rem;
 }
 
