@@ -12,8 +12,9 @@ For body: https://fonts.google.com/specimen/Inter
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: black;
+    background-color: #0A0A0B;
     font-weight: 200;
+    line-height: 1.8;
 
 }
 
@@ -66,7 +67,7 @@ body > h1 {
 nav {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    background-color: black;
+    background-color: #0A0A0B;
     grid-gap: 1rem;
     grid-auto-rows: 1rem;
     text-align: justify ;
@@ -129,12 +130,16 @@ nav {
 
 h1 {
     font-family: 'Prata', serif;
-    font-size: 3.5rem;
+    font-size: 3rem;
+    line-height: 1.3;
+
 }
 
 h2 {
     font-family: 'Prata', serif;
     font-size: 2rem;
+    line-height: 1.5;
+
 }
 
 .box1 {
@@ -181,17 +186,20 @@ h2 {
 
 .box3, .box4 {
     display: grid;
-    margin: 3rem 5rem 0rem 5rem;
     font-size: 1rem;
     color: white;
 }
 
 .box3 {
     padding-right: 1rem;
+    margin: 3rem 2rem 0rem 5rem;
+
 }
 
 .box4 {
     padding-left: 1rem;
+    margin: 3rem 5rem 0rem 2rem;
+
 }
 
 .box3 > h2 {
@@ -228,7 +236,6 @@ h2 {
 
 .boxes-container {
     display: grid;
-    background-color: pink;
     grid-template-columns: repeat(2, 1fr);
     grid-column-start: 1;
     grid-column-end: 3;
@@ -245,7 +252,11 @@ h2 {
 }
 
 .box5 > h2 {
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.box5 > p {
+    margin-top: 1rem;
 }
 
 .box6 {
@@ -253,11 +264,53 @@ h2 {
     grid-column-start: 2;
     grid-column-end: 3;
     background-color: #2E3038;
-    padding: 3rem 3rem 3rem 5rem;
+    padding: 3rem 5rem 3rem 3rem;
     color: white;
     margin: none;
 }
 
 .box6 > h2 {
     margin-bottom: 2rem;
+}
+
+.box6 > p {
+    margin-top: 1rem;
+}
+
+.box7 {
+    color: white;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2rem 2rem 0rem 5rem;
+}
+
+
+.box7 > h2 {
+    margin-bottom: 0.5rem;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.box7 > p {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.box7 > #yellow-button {
+    margin-top: 2rem;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    color: black;
+}
+
+footer {
+    background-color: red;
+    display: grid;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-top: 4rem;
 }
