@@ -5,10 +5,16 @@ For body: https://fonts.google.com/specimen/Inter
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&family=Prata&display=swap');
 
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
 body {
     font-family: 'Inter', sans-serif;
-    padding: 1rem;
     background-color: black;
+    font-weight: 200;
+
 }
 
 body > h1 {
@@ -19,7 +25,6 @@ body > h1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 0.5rem;
-    padding: 0 3rem 0 3rem;
     grid-template-areas:
         'box0 box0'
         'box1 box1'
@@ -52,10 +57,10 @@ body > h1 {
     grid-column-end: 3;
     grid-row-start: 0;
     grid-row-end: 1;
-    margin-bottom: 0px;
     height: 5rem;
     grid-area: box0;
     background-color: lightblue;
+    margin: 3rem 5rem 0rem 5rem;
 }
 
 nav {
@@ -139,6 +144,7 @@ h2 {
     grid-template-columns: repeat(8, 1fr);
     row-gap: 0rem;
     color: white;
+    margin: 3rem 5rem 3rem 5rem;
 }
 
 .box1-content {
@@ -165,7 +171,7 @@ h2 {
     grid-column-end: 3;
     grid-template-columns: repeat(6, 1fr);
     justify-content: space-evenly;
-    margin: 4rem 0rem 2rem 0rem;
+    margin: 3rem 5rem 0rem 5rem;
 }
 
 .box2 > img {
@@ -175,20 +181,21 @@ h2 {
 
 .box3, .box4 {
     display: grid;
-    margin-top: 3.5rem;
-    font-size: 1.1rem;
+    margin: 3rem 5rem 0rem 5rem;
+    font-size: 1rem;
     color: white;
 }
 
 .box3 {
-    padding-right: 2.5rem;
+    padding-right: 1rem;
 }
 
 .box4 {
-    padding-left: 2.5rem;
+    padding-left: 1rem;
 }
 
 .box3 > h2 {
+    margin-top: 2rem;
     margin-bottom: 0rem;
 }
 
@@ -204,6 +211,7 @@ h2 {
 }
 
 .box4 > h2 {
+    margin-top: 2rem;
     margin-bottom: 0rem;
 }
 
@@ -218,3 +226,38 @@ h2 {
     height: 20rem;
 }
 
+.boxes-container {
+    display: grid;
+    background-color: pink;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-top: 3rem;
+}
+
+.box5 {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #2E3038;
+    padding: 3rem 3rem 3rem 5rem;
+    color: white;
+}
+
+.box5 > h2 {
+    margin-bottom: 2rem;
+}
+
+.box6 {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: #2E3038;
+    padding: 3rem 3rem 3rem 5rem;
+    color: white;
+    margin: none;
+}
+
+.box6 > h2 {
+    margin-bottom: 2rem;
+}
