@@ -15,11 +15,6 @@ Click [here to see it](https://www.codewell.cc/challenges/web-developer-portfoli
 ### MY DESKTOP VERSION
 ![my desktop replica version of a landing page from the Codewell platform challenge](printscreen_BC_desktop_version.png)
 
-### MY TABLET VERSION
-_Coming soon_...
-
-### MY MOBILE VERSION
-_Coming soon_...
 
 # PT: codewell-landing-page
 
@@ -43,8 +38,3 @@ Clique [aqui para vê-lo](https://www.codewell.cc/challenges/web-developer-portf
 ### MINHA VERSÃO DESKTOP
 ![my desktop replica version of a landing page from the Codewell platform challenge](printscreen_BC_desktop_version.png)
 
-### MINHA VERSÃO TABLET
-_Carregando_...
-
-### MINHA VERSÃO MOBILE
-_Carregando_...
