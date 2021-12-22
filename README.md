@@ -2,7 +2,6 @@ _This README.md file is in English and Portuguese. // Esse arquivo README.md est
 
 # EN: codewell-landing-page
 
-## 🚧 under construction 🚧
 This repository contains my "replica" of a landing page.
 
 The landing page is actually a challenge from the [Codewell](https://www.codewell.cc/) platform. This platform aims to help you improve your HTML, CSS and Javascript skills by giving you websites (and all items needed) to replicate using your favorite Editor. Three versions of the website are given: **desktop, tablet and mobile**.
@@ -20,7 +19,6 @@ Click [here to see it](https://www.codewell.cc/challenges/web-developer-portfoli
 
 # codewell-landing-page
 
-## 🚧 em construção 🚧
 Esse repositório contém a minha "réplica" de uma landing page.
 
 Essa landing page, na verdade, é um desafio da plataforma [Codewell](https://www.codewell.cc/). Essa plataforma busca te ajudar a melhorar suas habilidades em HTML, CSS e Javascript ao te dar websites (e todos os itens necessários, em um arquivo ZIP) para você replicar no seu Editor favorito. Três versões do site são dados: **desktop, tablet e mobile**. 
