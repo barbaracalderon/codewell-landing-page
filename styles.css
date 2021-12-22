@@ -52,6 +52,7 @@ body > h1 {
     }
 }
 
+
 .box0 {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -122,6 +123,53 @@ nav {
     display: grid;
     grid-column-start: 1;
     grid-column-end: 4;
+}
+
+#nav-toggle, .burger-menu {
+    display: none;
+}
+
+@media only screen and (max-width: 1025px) {
+    nav {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: #0A0A0B;
+    }
+
+    nav > .burger-menu {
+        display: grid;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        justify-self: end;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .navbar-nested {
+        display: none;
+        text-align: left;
+    }
+    nav > #brand-jonathan {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        justify-self: start;
+    }
+    #yellow-button {
+        display: none;
+        text-align: left;
+    }
+    #nav-toggle:checked ~ .navbar-nested {
+        display: grid;
+        grid-row: 2;
+    }
+}
+
+.burger-menu {
+    grid-column: 1;
+    align-self: center;
+    margin-left: 1rem;
 }
 
 h1 {
